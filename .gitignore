@@ -1,0 +1,14 @@
+# Virtual environments
+.venv/
+
+# Python cache files
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Plots
+plots/
+
+# Experiments
+experiments.ipynb
