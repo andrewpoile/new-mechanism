@@ -575,6 +575,9 @@ def compare_college_quality(students_1:dict[str,Student], students_2:dict[str,St
         pass
     return quality_comparison, sum(quality_comparison.values())/len(quality_comparison) if quality_comparison else 0
 
+def trips_displaced():
+    pass
+
 def visualize(students:dict[str,Student], colleges:dict[str,College], dzones:dict[str,Dzone], grid_size, n_cols=1, plot_number=0):
     """Visualize locations of students, colleges, and disadvantaged zones."""
     fig, ax = plt.subplots(ncols=n_cols, figsize=(10*n_cols, 10))
